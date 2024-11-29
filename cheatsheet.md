@@ -1,5 +1,6 @@
 # Comprehensive Competitive Programming Cheatsheet
 
+```python
 # Fast input/output template for Competitive Programming
 
 import sys
@@ -16,40 +17,40 @@ input = sys.stdin.readline
 print = sys.stdout.write
 
 def solve():
-   # Single integer
-   n = int(input())
-   
-   # Multiple integers on one line
-   a, b, c = map(int, input().split())
-   
-   # List of integers
-   arr = list(map(int, input().split()))
-   
-   # Multiple lines of input
-   grid = []
-   for _ in range(n):
-       row = list(map(int, input().split()))
-       grid.append(row)
-   
-   # String input
-   s = input().strip()  # strip() removes trailing newline
-   
-   # Output formats
-   print(f"{answer}\n")  # Don't forget \n
-   print(" ".join(map(str, arr)) + "\n")  # Print array
-   print(f"{floating_point:.10f}\n")  # Print float with precision
+    # Single integer
+    n = int(input())
+    
+    # Multiple integers on one line
+    a, b, c = map(int, input().split())
+    
+    # List of integers
+    arr = list(map(int, input().split()))
+    
+    # Multiple lines of input
+    grid = []
+    for _ in range(n):
+        row = list(map(int, input().split()))
+        grid.append(row)
+    
+    # String input
+    s = input().strip()  # strip() removes trailing newline
+    
+    # Output formats
+    print(f"{answer}\n")  # Don't forget \n
+    print(" ".join(map(str, arr)) + "\n")  # Print array
+    print(f"{floating_point:.10f}\n")  # Print float with precision
 
 def main():
-   # For single test case
-   solve()
-   
-   # For multiple test cases
-   t = int(input())
-   for _ in range(t):
-       solve()
+    # For single test case
+    solve()
+    
+    # For multiple test cases
+    t = int(input())
+    for _ in range(t):
+        solve()
 
 if __name__ == "__main__":
-   main()
+    main()
 
 """
 Template Usage:
@@ -71,7 +72,7 @@ Grid input:
 4 5 6
 7 8 9
 """
-
+```
 
 ## Section 1: Algorithm Selection Guide
 
